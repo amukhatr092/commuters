@@ -71,7 +71,7 @@ Mycontrol.onAdd = function (map) {
     return this._div;
 };
 
-// method that we will use to update the control based on feature properties passed
+
 Mycontrol.update = function (properties) {
     this._div.innerHTML = '<h3>Commuter population attributes </h3>' +  (properties ?
          'Id:' + properties["id"] + '<br/>' + 'Shid:'+ properties["shid"] + '<br/>' + 'Area:'+ properties["area"] + '<br/>' + 'pop-commute-drive_alone:'+ properties["pop-commute-drive_alone"] + '<br/>' +
